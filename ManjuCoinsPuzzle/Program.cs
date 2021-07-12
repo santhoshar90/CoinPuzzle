@@ -32,6 +32,9 @@ namespace ManjuCoinsPuzzle
         {
             bool op = false;
 
+            if (num == 8)
+                return true;
+
             while(num > 13)
             {
                 if(num == 14 || num == 15 || num == 20)
